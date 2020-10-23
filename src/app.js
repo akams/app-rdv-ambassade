@@ -1,14 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages/index';
-import RdvPage from './pages/rdv';
-import TchatPage from './pages/tchat';
+import { HomePage, RdvPage, TchatPage } from './pages';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={HomePage} />
         <Route path="/rdv" component={RdvPage} />
         <Route path="/tchat" component={TchatPage} />
       </Switch>

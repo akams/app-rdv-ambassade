@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "firebase": "^7.24.0",
+    "globalize": "^1.6.0",
+    "moment": "^2.29.1",
     "normalize.css": "^8.0.1",
     "react": "^16.14.0",
     "react-big-calendar": "^0.28.1",
